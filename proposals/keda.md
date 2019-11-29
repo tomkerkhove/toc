@@ -26,7 +26,7 @@ Additionally, the project roadmap includes creating a Kubernetes CRD controller 
 
 We agree with the CNCF’s “no kingmakers” principle, and propose Cloud Native Buildpacks as an alternative to Dockerfiles for certain use cases, not as a one-size-fits-all solution for building cloud apps.
 
-**Sponsors from TOC:** Brian Grant & Alexis Richardson
+**Sponsors from TOC:** TO BE DEFINED
 
 **Preferred maturity level:** Sandbox
 
@@ -36,8 +36,7 @@ We agree with the CNCF’s “no kingmakers” principle, and propose Cloud Nati
 
 **External Dependencies:**
 
-  * https://github.com/BurntSushi/toml[github.com/BurntSushi/toml] (MIT)
-
+  * TO BE DEFINED, example: https://github.com/BurntSushi/toml[github.com/BurntSushi/toml] (MIT)
 
 **Initial Committers:**
 
@@ -45,55 +44,64 @@ Founding Maintainers:
 
  * Jeff Hollan (Microsoft)
  * Anirudh Garg (Microsoft)
+ * Aarthi (Microsoft)
  * Ahmed ElSayed (Microsoft)
  * Zbynek Roubalik (Red Hat)
+ * Ben (Red Hat)
+ * Tom Kerkhove (Codit)
 
 Additional Maintainers:
 
- * Tom Kerkhove (Codit)
+ * zach-dunton-sf - https://github.com/zach-dunton-sf
 
 **Infrastructure requests (CI / CNCF Cluster):**
 
 *Development needs:*
 
-We currently use Travis for CI, but we may want to use CNCF resources to deploy Concourse CI.
-Additionally, we will need access to all common Docker registry implementations for performance and compatibility testing.
-This includes deploying Harbor to CNCF infrastructure as well as access to DockerHub, GCR, ACR, ECR, etc.
+TO BE DEFINED, example:
+  We currently use Travis for CI, but we may want to use CNCF resources to deploy Concourse CI.
+  Additionally, we will need access to all common Docker registry implementations for performance and compatibility testing.
+  This includes deploying Harbor to CNCF infrastructure as well as access to DockerHub, GCR, ACR, ECR, etc.
 
 *Production needs:*
 
-Additionally, we would like to use CNCF resources to host a buildpack registry containing buildpacks and buildpack dependencies.
+TO BE DEFINED, example:
+  Additionally, we would like to use CNCF resources to host a buildpack registry containing buildpacks and buildpack dependencies.
 
 **Communication Channels:**
 
- * Slack: https://buildpacks.slack.com
- * Mailing List: https://lists.cncf.io/g/cncf-buildpacks (proposed)
- * Issue tracker: https://github.com/orgs/buildpack/projects
+* Issue tracker: https://github.com/kedacore/keda
 
-**Website:** https://buildpacks.io
+TO BE DEFINED, example:
+ * IM/Slack: https://buildpacks.slack.com
+ * Mailing List: https://lists.cncf.io/g/cncf-buildpacks (proposed)
+
+**Website:** https://keda.sh
 
 **Release methodology and mechanics:**
 
-Continuous release process made possible by reliable automated tests.
+TO BE DEFINED, example:
+  Continuous release process made possible by reliable automated tests.
 
-We plan to cut small releases whenever possible.
+  We plan to cut small releases whenever possible.
 
 **Social media accounts:**
 
- * Twitter: @buildpacks*io
+ * Twitter: @kedaorg
 
-**Existing sponsorship**: Pivotal and Heroku
+**Existing sponsorship**: Microsoft and Red Hat
 
 **Community size:**
 
-*Existing buildpacks:*
+TO BE DEFINED, example:
+  *Existing buildpacks:*
 
-Cloud Foundry Buildpacks:
-1000+ stars, 4,000+ forks, 8 full-time engineers
+  Cloud Foundry Buildpacks:
+  1000+ stars, 4,000+ forks, 8 full-time engineers
 
-Heroku Buildpacks:
-5,500+ stars, 12,000+ forks, 5 full-time engineers
+  Heroku Buildpacks:
+  5,500+ stars, 12,000+ forks, 5 full-time engineers
 
-*Cloud Native Buildpacks project:*
+  *Cloud Native Buildpacks project:*
 
-New project with 10 active contributors from Pivotal and Heroku.
+  New project with 10 active contributors from Pivotal and Heroku.
