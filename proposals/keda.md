@@ -44,10 +44,10 @@ Founding Maintainers:
 
  * Jeff Hollan (Microsoft)
  * Anirudh Garg (Microsoft)
- * Aarthi (Microsoft)
+ * Aarthi Saravanakumar (Microsoft)
  * Ahmed ElSayed (Microsoft)
  * Zbynek Roubalik (Red Hat)
- * Ben (Red Hat)
+ * Ben Browning (Red Hat)
  * Tom Kerkhove (Codit)
 
 Additional Maintainers:
