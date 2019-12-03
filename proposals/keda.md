@@ -89,17 +89,16 @@ TO BE DEFINED, example:
 
 **Communication Channels:**
 
+* IM/Slack: #keda on https://kubernetes.slack.com
 * Issue tracker: https://github.com/kedacore/keda
-
-TO BE DEFINED, example:
- * IM/Slack: https://buildpacks.slack.com
- * Mailing List: https://lists.cncf.io/g/cncf-buildpacks (proposed)
+* Mailing List: None
 
 **Website:** https://keda.sh
 
 **Release methodology and mechanics:**
 
-TO BE DEFINED, example:
+TO BE DEFINED, depends on https://github.com/kedacore/keda/issues/439
+Example:
   Continuous release process made possible by reliable automated tests.
 
   We plan to cut small releases whenever possible.
