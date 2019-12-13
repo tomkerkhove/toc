@@ -19,17 +19,6 @@ Instead of reinventing the wheel, Kubernetes Event-driven Autoscaling (KEDA) is 
 
 Kubernetes Event-driven Autoscaling (KEDA) provides production-grade security by supporting pod identities, like Azure AD Pod Identity, to avoid secret management and allow for authentication re-use across multiple scalers. This allows existing deployments to run under the same minimal permissions while KEDA scalers can use higher-priviledged authentication to gain the required metrics. With this approach, we allow developers to focus on their workload while ops manages the authentication & configuration of the autoscaling, although it can be managed end-to-end by a full-stack as well.
 
-Example:
->  Buildpacks are application build tools that provide a higher level of abstraction compared to Dockerfiles.
->  Conceived by Heroku in 2011, they establish a balance of control that reduces the operational burden on developers and supports operators who manage apps at scale.
->  Buildpacks ensure that apps meet security and compliance requirements without developer intervention.
->  They provide automated delivery of both OS-level and application-level dependency upgrades, efficiently handling day-2 app operations that are often difficult to manage with Dockerfiles.
->
-> Cloud Native Buildpacks aim to unify the buildpack ecosystems with a platform-to-buildpack contract that is well-defined and that incorporates learnings from maintaining production-grade buildpacks for years at both Pivotal and Heroku, the largest contributors to the buildpack ecosystem.
->
-> Cloud Native Buildpacks embrace modern container standards, such as the OCI image format.
-  They take advantage of the latest capabilities of these standards, such as remote image layer rebasing on Docker API v2 registries.
-
 **Statement on alignment with CNCF mission:**
 
 Kubernetes Event-driven Autoscaling (KEDA)'s mission is to make application autoscaling simple allowing Kubernetes users to focus on their workloads, not the scaling infrastructure. As part of that mission, we want to support as many customers as possible by being vendor neutral and are open to scale on any system.
@@ -39,17 +28,6 @@ The Kubernetes Event-driven Autoscaling (KEDA) project does not want to reinvent
 While the scaling features of Kubernetes Event-driven Autoscaling (KEDA) are important, we are a strong believer of making the product itself operable as well. By using Operator SDK we also want to allow operators to efficiently manage the infrastructure necessary to run Kubernetes Event-driven Autoscaling (KEDA) and are planning to provide a better operational experience as a whole by providing a CLI, dashboard, etc.
 
 Security is one of our main focuses and we will keep on investing in that - This is why pod identity has been one of our main focuses for 1.0 and will continue to support more identity providers over time.
-
-Example:
-
->The Cloud Native Buildpacks project is well-aligned with the CNCF's mission statement of supporting cloud native systems.
-  The next generation of buildpacks will aid developers and operators in packaging applications into containers (1a), allow operators to efficiently manage the infrastructure necessary to keep application dependencies updated (1b), and be available via well-defined interfaces (1c).
->
->The Cloud Native Buildpacks project is complimentary to other CNCF projects like Helm, Harbor, and Kubernetes.
-  Cloud Native Buildpacks produce OCI images that can be managed by Helm, stored in Harbor, and deployed to Kubernetes.
-  Additionally, the project roadmap includes creating a Kubernetes CRD controller (or alternatively, adapting Knative's https://github.com/knative/build[Build CRD]) to enable cloud builds using buildpacks.
->
-> We agree with the CNCF’s “no kingmakers” principle, and propose Cloud Native Buildpacks as an alternative to Dockerfiles for certain use cases, not as a one-size-fits-all solution for building cloud apps.
 
 **Sponsors from TOC:** TO BE DEFINED
 
@@ -77,7 +55,7 @@ Founding Maintainers:
 
 Additional Maintainers:
 
- * zach-dunton-sf - https://github.com/zach-dunton-sf
+ * Zach - (Smartfrog)
 
 **Infrastructure requests (CI / CNCF Cluster):**
 
