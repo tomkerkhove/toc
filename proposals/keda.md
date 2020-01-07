@@ -62,7 +62,7 @@ Additional Maintainers:
 We do not have infrastructure requests as we've got everything already setup:
 
 - GitHub Actions for CI/CD
-- Docker images are stored on Azure Container Registry (sponsored by Microsoft)
+- Docker images are stored on Docker Hub
 - Helm charts are hosted on GitHub Pages
 
 **Communication Channels:**
@@ -89,15 +89,6 @@ Example:
 
 **Community size:**
 
-TO BE DEFINED, example:
->   *Existing buildpacks:*
-> 
-> Cloud Foundry Buildpacks:
->   1000+ stars, 4,000+ forks, 8 full-time engineers
-> 
->   Heroku Buildpacks:
->   5,500+ stars, 12,000+ forks, 5 full-time engineers
-> 
->   *Cloud Native Buildpacks project:*
-> 
->   New project with 10 active contributors from Pivotal and Heroku.
+The community around KEDA is already fairly big given it was only introduced in 2019 with 37 contributors from 10+ companies including Microsoft, Red Hat, Pivotal, Readify and more and has 1.6k stars on GitHub.
+
+The Docker images are available on Docker Hub and have already been downloaded for more than 100K+ times and is gaining momentum in the operator space.
