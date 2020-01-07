@@ -17,6 +17,8 @@ Customers can describe how their workloads, deployments or jobs, should scale ba
 
 Instead of reinventing the wheel, Kubernetes Event-driven Autoscaling (KEDA) is extending Kubernetes - When a workload has to scale from 0-to-n instances, it will automatically create an  Horizontal Pod Autoscalers (HPA) until there is no work left and it gets removed again.
 
+By leveraging scale-to-0, Kubernetes Event-driven Autoscaling (KEDA) allows customers to build resource-friendly applications by making the unused resouces available to other applications in the Kubernetes cluster that really need them.
+
 Kubernetes Event-driven Autoscaling (KEDA) provides production-grade security by supporting pod identities, like Azure AD Pod Identity, to avoid secret management and allow for authentication re-use across multiple scalers. This allows existing deployments to run under the same minimal permissions while KEDA scalers can use higher-priviledged authentication to gain the required metrics. With this approach, we allow developers to focus on their workload while ops manages the authentication & configuration of the autoscaling, although it can be managed end-to-end by a full-stack as well.
 
 **Statement on alignment with CNCF mission:**
