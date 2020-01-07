@@ -55,21 +55,15 @@ Founding Maintainers:
 
 Additional Maintainers:
 
- * Zach - (Smartfrog)
+ *  Zach Dunton - (Smartfrog)
 
 **Infrastructure requests (CI / CNCF Cluster):**
 
-*Development needs:*
+We do not have infrastructure requests as we've got everything already setup:
 
-TO BE DEFINED, example:
-> We currently use Travis for CI, but we may want to use CNCF resources to deploy Concourse CI.
-  Additionally, we will need access to all common Docker registry implementations for performance and compatibility testing.
-  This includes deploying Harbor to CNCF infrastructure as well as access to DockerHub, GCR, ACR, ECR, etc.
-
-*Production needs:*
-
-TO BE DEFINED, example:
-> Additionally, we would like to use CNCF resources to host a buildpack registry containing buildpacks and buildpack dependencies.
+- GitHub Actions for CI/CD
+- Docker images are stored on Azure Container Registry (sponsored by Microsoft)
+- Helm charts are hosted on GitHub Pages
 
 **Communication Channels:**
 
