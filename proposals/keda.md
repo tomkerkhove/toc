@@ -17,6 +17,8 @@ Customers can describe how their workloads, deployments or jobs, should scale ba
 
 Instead of reinventing the wheel, Kubernetes Event-driven Autoscaling (KEDA) is extending Kubernetes - When a workload has to scale from 0-to-n instances, it will automatically create an  Horizontal Pod Autoscalers (HPA) until there is no work left and it gets removed again.
 
+Kubernetes Event-driven Autoscaling (KEDA) provides a variety of 15+ scalers which allows customers to automatically scale workloads based on external systems. Our portfolio includes AWS, GCP, Microsoft Azure & Huawei cloud as well as other technologies such as Kafka, Prometheus, NATS and more but new scalers can be added very easily.
+
 By leveraging scale-to-0, Kubernetes Event-driven Autoscaling (KEDA) allows customers to build resource-friendly applications by making the unused resouces available to other applications in the Kubernetes cluster that really need them.
 
 Kubernetes Event-driven Autoscaling (KEDA) provides production-grade security by supporting pod identities, like Azure AD Pod Identity, to avoid secret management and allow for authentication re-use across multiple scalers. This allows existing deployments to run under the same minimal permissions while KEDA scalers can use higher-priviledged authentication to gain the required metrics. With this approach, we allow developers to focus on their workload while ops manages the authentication & configuration of the autoscaling, although it can be managed end-to-end by a full-stack as well.
@@ -25,7 +27,7 @@ Kubernetes Event-driven Autoscaling (KEDA) provides production-grade security by
 
 Kubernetes Event-driven Autoscaling (KEDA)'s mission is to make application autoscaling simple allowing Kubernetes users to focus on their workloads, not the scaling infrastructure. As part of that mission, we want to support as many customers as possible by being vendor neutral and are open to scale on any system.
 
-The Kubernetes Event-driven Autoscaling (KEDA) project does not want to reinvent the wheel but build on standards instead and is complimentary to Kubernetes. Next to that, we have support for other CNCF projects like Prometheus and NATS as well and package our product as a Helm chart (2.x & 3.x) as well which is available on Helm Hub.
+The Kubernetes Event-driven Autoscaling (KEDA) project does not want to reinvent the wheel but build on standards instead and is complimentary to Kubernetes. Next to that, we have support for CNCF projects like Prometheus and NATS by providing scalers for them as well and package our product as a Helm chart (2.x & 3.x) which is available on Helm Hub. Lastly, we are vendor-neutral by supporting all major clouds and open-source technologies like Redis.
 
 While the scaling features of Kubernetes Event-driven Autoscaling (KEDA) are important, we are a strong believer of making the product itself operable as well. By using Operator SDK we also want to allow operators to efficiently manage the infrastructure necessary to run Kubernetes Event-driven Autoscaling (KEDA) and are planning to provide a better operational experience as a whole by providing a CLI, dashboard, etc.
 
