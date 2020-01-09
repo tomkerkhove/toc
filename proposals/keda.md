@@ -33,6 +33,8 @@ While the scaling features of Kubernetes Event-driven Autoscaling (KEDA) are imp
 
 Security is one of our main focuses and we will keep on investing in that - This is why pod identity has been one of our main focuses for 1.0 and will continue to support more identity providers over time.
 
+KEDA is also planned and developed in the open to foster inclusivity and community.  We have weekly community standups that are well attended from a variety of different companies ([notes here](https://hackmd.io/cEi_FerdQvyTvB1i-5U0kg?view)) where we can discuss, prioritize, and design features.  KEDA is under the MIT license and we want to maintain open governance and open collaboartion as a core tenant of the project moving forward.
+
 **Sponsors from TOC:** TO BE DEFINED
 
 **Preferred maturity level:** Sandbox
@@ -94,6 +96,6 @@ Example:
 
 **Community size:**
 
-The community around KEDA is already fairly big given it was only introduced in 2019 with 37 contributors from 10+ companies including Microsoft, Red Hat, Pivotal, Readify and more and has 1.6k stars on GitHub.
+The community around KEDA is already fairly big given it was only introduced in 2019 with 41 contributors from 10+ companies including Microsoft, Red Hat, Pivotal, Readify and more and has 1.6k stars on GitHub.
 
 The Docker images are available on Docker Hub and have already been downloaded for more than 100K+ times and is gaining momentum in the operator space.
