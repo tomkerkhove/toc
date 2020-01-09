@@ -60,11 +60,6 @@ Founding Maintainers:
 Additional Maintainers:
 
  *  Shekhar Patnaik
- *  Lee Cattarin (Microsoft)
- *  Yaron Schneider (Microsoft)
- *  Zach Dunton (Smartfrog)
- *  Eric Bottard (Pivotal)
- *  Steve Gricci (Microsoft)
 
 **Infrastructure requests (CI / CNCF Cluster):**
 
