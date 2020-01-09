@@ -88,7 +88,7 @@ Example:
 
 **Social media accounts:**
 
- * Twitter: @kedaorg
+ * Twitter: [@kedaorg](https://twitter.com/kedaorg)
 
 **Existing sponsorship**: Microsoft and Red Hat
 
