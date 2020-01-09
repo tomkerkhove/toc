@@ -60,6 +60,7 @@ Founding Maintainers:
 Additional Maintainers:
 
  *  Shekhar Patnaik
+ *  Zach Dunton (Smartfrog)
 
 **Infrastructure requests (CI / CNCF Cluster):**
 
